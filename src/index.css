@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles */
+body {
+  @apply bg-gray-50 text-gray-900 font-sans;
+}
+
+/* Container */
+.container {
+  @apply max-w-4xl mx-auto p-6;
+}
+
+/* Buttons */
+.button {
+  @apply px-4 py-2 rounded font-semibold transition shadow-md;
+}
+
+.button-primary {
+  @apply bg-blue-600 text-white hover:bg-blue-700;
+}
+
+.button-secondary {
+  @apply bg-gray-300 text-gray-800 hover:bg-gray-400;
+}
+
+/* Form Inputs */
+.input-field {
+  @apply w-full p-3 border border-gray-300 rounded focus:ring-2 focus:ring-blue-400 focus:outline-none;
+}
+
+/* Card Styling */
+.card {
+  @apply bg-white shadow-lg rounded-lg p-6 border border-gray-200;
+}
+
+/* Section Headers */
+.section-title {
+  @apply text-2xl font-bold text-blue-600 border-b-2 border-blue-400 pb-2 mb-4;
+}
+
+/* Lesson Plan Output */
+.lesson-output {
+  @apply bg-gray-100 p-6 rounded-md border border-gray-300;
+}
+
+/* Navbar */
+.navbar {
+  @apply bg-blue-600 p-4 text-white flex justify-between items-center shadow-md;
+}
+
+.navbar a {
+  @apply hover:underline;
+}
