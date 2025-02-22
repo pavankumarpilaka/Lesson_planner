@@ -10,8 +10,6 @@ AI-Generated Lesson Plans: Automatically generates structured lesson plans based
 
 User Authentication: Requires login to access the lesson planner.
 
-Dark Mode Support: Toggle between light and dark themes.
-
 PDF Export: Download lesson plans as a formatted PDF.
 
 ShadCN UI Components: Provides a sleek and modern UI.
@@ -33,6 +31,8 @@ Installation
 Clone the repository
 
 git clone https://github.com/pavankumarpilaka/Lesson_planner.git
+
+
 cd Lesson_planner
 
 Install dependencies
@@ -64,6 +64,9 @@ To deploy the app:
 npm run build
 
 Then deploy the dist/ folder to your preferred hosting platform (e.g., Vercel, Netlify).
+
+Live:
+https://lesson-planner-delta.vercel.app/
 
 Contributing
 
